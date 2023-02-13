@@ -1,0 +1,54 @@
+.proyecto__div {
+    border-radius: 5px;
+    max-width: 100%;
+    height: 25rem;
+    position: relative;
+    transition: .3s linear;
+}
+
+.proyecto__div:hover {
+    transform: scale(1.05);
+}
+
+.proyecto__title {
+    position: absolute;
+    left: 0.9rem;
+    top: 0.8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.proyecto__icon {
+    font-size: 2.5rem;
+    position: absolute;
+    width: 40px;
+    right: 20px;
+    bottom: 1rem;
+}
+
+.proyecto__div img{
+    object-fit: cover;
+    position: absolute;
+    height: 25rem;
+    border-radius: 5px;
+    opacity: .3;
+}
+
+.proyecto__caracteristicas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 0.7rem;
+    padding: 0.4rem 0;
+    position: absolute;
+    top: 3rem;
+    left: 0.8rem;
+}
+
+.proyecto__caracteristicas li {
+    border: solid 1px rgba(255, 255, 255, 0.438);
+    font-size: 0.8rem;
+    padding: .3rem .3rem;
+    border-radius: 10px;
+    background-color: rgb(17, 51, 144);
+}
