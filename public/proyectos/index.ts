@@ -1,7 +1,7 @@
 export { default as epic } from "./epic.png"
 export { default as jardineria } from "./jardineria.png"
 export { default as manga } from "./manga.png"
-export { default as portafoliov1 } from "./portafoliov1.png"
+export { default as portafolio } from "./portafolio.png"
 export { default as pytube } from "./pytube.png"
 export { default as valorant } from "./valorant.png"
 export { default as shopping } from "./shooping.jpg"

@@ -9,7 +9,7 @@ interface Props {
 function Card({name,img}: Props) {
   return (
     <div className={styles.container__card}>
-        <Image src={img} alt="flask" priority />
+        <Image src={img} alt="flask"/>
         <p>{name}</p>
     </div>
   )
