@@ -14,7 +14,7 @@ interface Props {
 function CardProyecto({ name, img , caracteristicas,url }: Props) {
  
   return (
-    <a className={styles.proyecto__div} href={url}>
+    <a className={styles.proyecto__div} href={url} rel="noopener">
         <Image src={img} alt="proyecto1" />
      
         <RiArrowRightCircleLine className={styles.proyecto__icon} /> 
