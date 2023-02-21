@@ -4,27 +4,29 @@
     align-items: center;
     gap: .5rem;
     padding: 0.6rem;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     font-weight: 800;
     margin-top: 0.6rem;
-    background-color: rgba(18, 19, 20, 0.172);
+    background-color: rgba(49, 36, 135, 0.446);
     border-radius: 10px;
+    overflow-x : hidden;
 }
 .navbar__container ul {
     display: flex;
+    align-items: center;
     gap: .3rem;
 }
 .navbar__sub li {
     padding: 0.4rem;
 }
-
+.navbar__link {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
 @media screen and (min-width :820px) {
     .navbar__container{
+        width: 100%;
         font-size: 1.2rem;
-        position: fixed;
-        left: 9%;
-        width: 80%;
-        gap: .1rem;
         padding: 0.6rem 1.5rem;
     }
     .navbar__container img{

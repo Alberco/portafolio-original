@@ -3,7 +3,7 @@ import React from 'react'
 import styles from './Navbar.module.css'
 import icon from '../../../public/broadsword .svg'
 import Image from 'next/image'
-
+import { RiLinkedinBoxFill, RiGithubFill } from "react-icons/ri";
 function Navbar() {
   return (
     <nav className={styles.navbar__container}>
@@ -23,6 +23,12 @@ function Navbar() {
         </li>
         <li>
           <Link href={"/proyectos"}>Proyectos</Link>  
+        </li>
+        <li>
+          <a href='https://www.linkedin.com/in/guillermo-alberco-capistrano-43909b156/' className={styles.navbar__link}><RiLinkedinBoxFill /></a>
+        </li>
+        <li>
+          <a href='https://github.com/Alberco' className={styles.navbar__link}><RiGithubFill /></a>
         </li>
       </ul>
     </nav>

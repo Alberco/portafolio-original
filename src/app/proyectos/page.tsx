@@ -1,10 +1,11 @@
 import React from 'react'
 import { CardProyecto } from './components'
 import { proyectos } from './models'
-
 import styles from './page.module.css'
 
+
 function page() {
+
   return (
     <section className={styles.container}>
       <h3>Proyectos</h3>
